@@ -45,3 +45,72 @@
         
     }
 }
+
+
+.header__hero__container_left_title{
+    color: $white-color;
+    margin-bottom: 3rem;
+}
+.header__hero__container_left_text{
+    color: $header-text-color;
+    margin-bottom: 50px;
+}
+.header__hero__container{
+    display: flex;
+    gap: 3.4rem;
+    padding-bottom: 24.8rem;
+}
+.header__statistic{
+    box-shadow: 0px 73px 80px 0px #0000000F;
+    box-sizing: border-box;
+    width: 117.0rem;
+height: 32.3rem;
+border-radius: 30px;
+margin: auto;
+margin-top: -150px;
+background-color: $white-color;
+
+
+.header__static__text{
+    color:   #265A6A;
+    font-family: Inter;
+font-size: 24px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+padding-top: 64px;
+padding-bottom: 79px;
+}
+}
+.header__statistic__df1__img{
+    margin-bottom: 2.5rem;
+}
+.header__statistic__df1__text{
+    font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+margin-bottom: 9.2rem;
+}
+
+.header__statistic__df{
+
+    display: flex;
+    gap: 190px;
+    margin-left: 5.4rem;
+}
+.header__statistic__df1__text{
+    font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+color: $cyan-color;
+}
+.m{
+    margin-left: 1.2rem;
+}

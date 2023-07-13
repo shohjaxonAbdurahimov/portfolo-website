@@ -1,0 +1,66 @@
+
+.header__hero__container_left_button{
+    font-family: $main-font;
+    color: #ffffff;
+    width: 195px;
+height: 65px;
+border-radius: 30px;
+background-color: $hero-header-bg;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-bottom: 4rem;
+
+&:hover{
+    background-color: $orange-color;
+    cursor: pointer;
+}}
+
+.header__link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+  height: 58px;
+  background-color: $cyan-color-light;
+  color:#ffffff ;
+  border-radius: 2.5rem;
+  transition: 0.3s;
+  a{
+      color:#ffffff ;
+  }
+  &:hover{
+  background-color: $orange-color;    
+  }
+  
+  }
+  .header__hero__container_left_btn1{
+    width: 137px;
+height: 61px;
+background-color: $orange-color;
+color: $white-color;
+font-family: $main-font;
+font-weight: $h2-fw;
+border-radius: 2.5rem;
+
+&:hover{
+    background-color: $white-color;
+    color: $orange-color;
+}
+
+}
+.header__hero__container_left_btns{
+    display: flex;
+    
+}
+.header__hero__container_left_btn2{
+    font-family: $main-font;
+    font-weight: $h2-fw;
+font-size: 18px;
+line-height: 29px;
+letter-spacing: 0em;
+text-align: left;
+margin-top: 1.6rem;
+margin-left: 5rem;
+color: #ffffff;
+}
